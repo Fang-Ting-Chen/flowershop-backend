@@ -64,7 +64,7 @@ app.use(function(req,res,next){
 // 請確保這個 cors 函數在其他路由之前使用，並在 session 中間件之後
 app.use(
   cors({
-    origin: 'https://fang-ting-chen.github.io',
+    origin: 'https://fang-ting-chen.github.io/flowershop-fronted/',
     methods: 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
     allowedHeaders: ['X-Requested-With', 'X-HTTP-Method-Override', 'Content-Type', 'Accept'],
     credentials: true,
