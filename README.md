@@ -33,15 +33,15 @@ API
 | base route | routes | HTTP method | feature |
 | :--: | :--: | :--: | :--: |
 | /api | /register | post | 註冊 |
-| | /login | post | 登入 |
-| | /logout | post | 登出 |
-| | /products | get | 獲取商品數據 |
-| | /products/:id | patch | 更改商品庫存 |
-| | /cart | get | 獲取購物車數據 |
-| | /cart/add | post | 增添數據到購物車 |
-| | /cart/:id | patch | 更改購物車數據 |
-| | /cart/:id | delete | 刪除購物車數據 |
-| | /orderinfo | post | 增加訂單信息 |  
+| /api | /login | post | 登入 |
+| /api | /logout | post | 登出 |
+| /api | /products | get | 獲取商品數據 |
+| /api | /products/:id | patch | 更改商品庫存 |
+| /api | /cart | get | 獲取購物車數據 |
+| /api | /cart/add | post | 增添數據到購物車 |
+| /api | /cart/:id | patch | 更改購物車數據 |
+| /api | /cart/:id | delete | 刪除購物車數據 |
+| /api | /orderinfo | post | 增加訂單信息 |  
 
 聲明
 ===
